@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet');
+
+    *
+    {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Poppins",sans-serif;
+    }
+    
+    .container
+    {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(21, 225, 21); 
+    }
+    
+    .form
+    {
+        max-width:330px;
+        width:100%;
+        padding: 30px;
+        background: #F8F0E3;
+    }
+    .form{
+        margin-top: 30px;
+    }
+    
+     form .field
+     {
+        height: 45px;
+        width: 100%;
+        margin-top: 20px;
+        
+     }
+    
+     .field input,
+ .field button
+ {
+    height: 100%;
+    width: 100%;
+    border: none;
+    background-color:#f0e9db;
+ }
+
+ .field button
+ {
+    background-color: rgb(21, 171, 21);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 100;
+ }
+
+
+ .field input
+ {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 15px;
+    }
+    
+            .form-link
+        {
+                   text-align: center;
+                   margin-top: 10px;
+        }
+
+        .link 
+        {
+            color: gray;
+         font-size: 12px;
+        }
+    
+        .form-link a
+        {
+            text-decoration: none;
+            color: green;
+        }
+
+
+    
+        ::placeholder
+        {
+            color:grey;
+        }
+    
+        .form-link span
+        {
+            color: grey;
+        }
+
+
+        #userr
+        {
+            color:red;
+            font-size: 10px;
+        }
+
+        #passs
+        {
+            color:red;
+            font-size: 10px;
+        }
+
+        #btn:disabled
+        {
+            background-color: grey;
+            opacity:0.3;
+        }
+
+    
+        
